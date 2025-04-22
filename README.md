@@ -1,24 +1,27 @@
-# 🃏 Blackjack Game (21-Game)
+# Blackjack Game (21-Game)
 
-This is a command-line Blackjack game written in C++. It supports multiplayer, AI opponents, and tracks scores across multiple rounds.
+Blackjack game written in C++. Supports multiplayer (Locally), AI opponents, and tracks scores across multiple rounds.
 
 ---
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
-### ✅ Requirements
+### Requirements
 - A C++ compiler (e.g., `g++`)  
 - Works on macOS, Linux, and Windows
 
-### ▶️ How to Compile & Run
+### How to Compile
 
 #### On macOS/Linux:
-```bash
 g++ src/21-Game.cpp -o blackjack
 ./blackjack
 
+#### On Windows
+
 g++ src/21-Game.cpp -o blackjack.exe
 blackjack.exe
+
+### How to Play
 
 Enter number of players – Must be an integer
 1. Enter names for each player
